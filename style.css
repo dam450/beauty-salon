@@ -11,15 +11,27 @@
   --secondary-color: hsl(158, 64%, 88%);
   --background1: hsl(0, 0%, 98%);
   --background2: hsl(0, 0%, 100%);
+
+  /*  fonts
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Poppins', sans-serif; 
+  */
+
+  -webkit-font-feature-settings: antialiased;
 }
 
 body {
   background-color: var(--background1);
   color: var(--dark);
+  font-family: 'DM Sans', sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -77,6 +89,9 @@ section {
 .container {
   margin: 0 1.5rem;
 }
+.home {
+}
+
 img {
   height: 100%;
   width: 90%;

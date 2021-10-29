@@ -1,0 +1,28 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+}
+
+body {
+}
+
+header {
+  height: 4.5rem;
+}
+
+header .header {
+  height: 4.5rem;
+  display: flexbox;
+  justify-content: space-between;
+}
+
+nav {
+  display: flexbox;
+  justify-content: space-between;
+}
+.logo {
+}

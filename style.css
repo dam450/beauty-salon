@@ -52,16 +52,24 @@ nav {
   align-items: center;
 }
 .logo1 {
+  font-family: 'Poppins', sans-serif;
   color: var(--dark);
+  font-weight: 700;
+  font-size: 1.31rem;
 }
 .logo1 span {
+  font-family: 'Poppins', sans-serif;
   color: var(--prymary-color);
 }
 
 .logo2 {
+  font-family: 'Poppins', sans-serif;
   color: var(--dark);
+  font-weight: 700;
+  font-size: 1.31rem;
 }
 .logo2 > span {
+  font-family: 'Poppins', sans-serif;
   color: var(--background1);
 }
 
@@ -80,6 +88,9 @@ nav {
   background: var(--prymary-color);
   padding: 1rem 2rem;
   border-radius: 0.19rem;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 section {

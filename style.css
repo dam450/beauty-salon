@@ -18,6 +18,10 @@ body {
   color: var(--dark);
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   height: 4.5rem;
 }
@@ -52,6 +56,19 @@ nav {
 .destak {
   color: var(--prymary-color);
 }
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.button {
+  display: flex-box;
+  align-items: center;
+  color: var(--background1);
+  background: var(--prymary-color);
+  padding: 1rem 2rem;
+  border-radius: 0.19rem;
+}
 
 section {
   min-height: 600px;
@@ -68,9 +85,4 @@ img {
 footer {
   background: var(--prymary-color);
   color: var(--background1);
-}
-
-footer img {
-  height: 1.5rem;
-  width: 1.5rem;
 }

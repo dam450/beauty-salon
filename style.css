@@ -406,3 +406,38 @@ main {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
 }
+
+/* ==================== testimonials */
+
+.testimonials {
+  background: white;
+}
+
+.testimonial {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+.testimonial img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1000px;
+}
+
+.testimonial p {
+  font: 400 1rem 'DM Sans', sans-serif;
+  color: var(--dark);
+  margin-bottom: 1.5rem;
+}
+.testimonial blockquote p {
+  position: relative;
+}
+
+.quote::first-letter {
+  color: var(--prymary-color);
+  font: 700 3rem Georgia, 'Times New Roman', Times, serif;
+
+  top: -2rem;
+  position: absolute;
+}

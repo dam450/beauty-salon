@@ -21,6 +21,11 @@
     <!-- icons -->
     <link rel="stylesheet" href="./assets/style.css" />
 
+    <!-- swiper style -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <!-- style -->
     <link rel="stylesheet" href="style.css" />
     <title>BeautySalon</title>
@@ -153,56 +158,82 @@
 
       <!--    ========= testimonial ========= -->
       <section class="section" id="testimonials">
-        <div class="container grid">
+        <div class="container">
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
+          <!-- Slider main container -->
+          <div class="swiper testimonial-box">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="testimonial">
+                  <blockquote>
+                    <p class="text quote">
+                      <span>&ldquo;</span>Eu sou cliente do Beautysalon há 5
+                      anos e não troco por nada! Certamente meu cabelo mudou
+                      muito depois que comecei a tratar somente com produtos
+                      naturais e veganos. São profissionais incríveis e
+                      qualificados.
+                    </p>
+                    <cite>
+                      <img
+                        src="./assets/photos/44.jpg"
+                        alt="Foto e Wanessa"
+                      />Wanessa Souza
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial">
+                  <blockquote>
+                    <p class="text quote">
+                      <span>&ldquo;</span>Minha mãe frequenta o salão há anos e
+                      me levou um dia para conhecer. Minha experiência foi
+                      incrível, eu continuo fazendo o a terapia capilar e isso
+                      salvou o meu cabelo. Adoro todos os profissionais do
+                      Beautysalon.
+                    </p>
+                    <cite>
+                      <img
+                        src="./assets/photos/21.jpg"
+                        alt="Foto de Luna"
+                      />Luna Falcão
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="testimonial">
+                  <blockquote>
+                    <p class="text quote">
+                      <span>&ldquo;</span>Lorem ipsum, dolor sit amet
+                      consectetur adipisicing elit. Nihil odit officiis magnam
+                      blanditiis, aspernatur neque, similique recusandae ullam,
+                      alias dolores atque voluptatem earum sed dolorem ea iusto
+                      quam eius quas!
+                    </p>
+                    <cite>
+                      <img
+                        src="./assets/photos/30.jpg"
+                        alt="Foto de Joana"
+                      />Joana Silva
+                    </cite>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
 
-          <div class="testimonials-box">
-            <div class="testimonial">
-              <blockquote>
-                <p class="text quote">
-                  <span>&ldquo;</span>Eu sou cliente do Beautysalon há 5 anos e
-                  não troco por nada! Certamente meu cabelo mudou muito depois
-                  que comecei a tratar somente com produtos naturais e veganos.
-                  São profissionais incríveis e qualificados.
-                </p>
-                <cite>
-                  <img
-                    src="./assets/photos/44.jpg"
-                    alt="Foto e Wanessa"
-                  />Wanessa Souza
-                </cite>
-              </blockquote>
-            </div>
-            <div class="testimonial">
-              <blockquote>
-                <p class="text quote">
-                  <span>&ldquo;</span>Minha mãe frequenta o salão há anos e me
-                  levou um dia para conhecer. Minha experiência foi incrível, eu
-                  continuo fazendo o a terapia capilar e isso salvou o meu
-                  cabelo. Adoro todos os profissionais do Beautysalon.
-                </p>
-                <cite>
-                  <img src="./assets/photos/21.jpg" alt="Foto de Luna" />Luna
-                  Falcão
-                </cite>
-              </blockquote>
-            </div>
-            <div class="testimonial">
-              <blockquote>
-                <p class="text quote">
-                  <span>&ldquo;</span>Lorem ipsum, dolor sit amet consectetur
-                  adipisicing elit. Nihil odit officiis magnam blanditiis,
-                  aspernatur neque, similique recusandae ullam, alias dolores
-                  atque voluptatem earum sed dolorem ea iusto quam eius quas!
-                </p>
-                <cite>
-                  <img src="./assets/photos/30.jpg" alt="Foto de Joana" />Joana
-                  Silva
-                </cite>
-              </blockquote>
-            </div>
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
           </div>
         </div>
       </section>
@@ -210,35 +241,28 @@
 
       <!--    ========= contact ========= -->
       <section class="section" id="contact">
-        <div class="container">
-          <h2 class="title">Entre em contato com a gente!</h2>
-          <p>
-            Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
-            ouvir suas críticas e sugestões.
-          </p>
-          <br />
-          <a
-            class="button"
-            href="https://api.whatsapp.com/send/?phone=1199999999&text=Quero agendar um horario&app_absent=0"
-            target="_blank"
-            ><img class="icon" src="./images/whatsapp_w.svg" alt="whasapp" />
-            Entrar em contato</a
-          >
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <br />
+            <a
+              class="button"
+              href="https://api.whatsapp.com/send/?phone=+551199999999&text=Quero agendar um horário&app_absent=0"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
 
-          <br /><br /><br />
-          <div class="contacts">
-            <p>
-              <img src="./images/phone.svg" alt="" class="icon" />
-              11 99845-6754
-            </p>
-            <p>
-              <img src="./images/map-pin.svg" alt="" class="icon" />
-              R. Amauri Souza, 346
-            </p>
-            <p>
-              <img src="./images/mail.svg" alt="" class="icon" />
-              contato@beautysalon.com
-            </p>
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>(11) 9999-9999</li>
+              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -262,6 +286,10 @@
         </div>
       </footer>
     </main>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- swiper script -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>

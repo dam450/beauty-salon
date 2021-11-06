@@ -34,3 +34,43 @@ window.addEventListener('scroll', function () {
     header.classList.remove('scroll')
   }
 })
+
+// ==========  swiper
+const swiper = new Swiper('.swiper', {
+  // Default parameters
+  slidesPerView: 1,
+  spaceBetween: 20,
+
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  mousewheel: {
+    invert: false
+  },
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets'
+  },
+
+  pauseOnMouseEnter: true,
+  disableOnInteraction: false,
+  grabCursor: true,
+  allowSlidePrev: false
+})
+
+//=============== ScrollReveal
+
+ScrollReveal({ reset: true })
+
+ScrollReveal().reveal(
+  `#home .image, #home .text,
+   #about .image, #about .text,
+   #services header, #services .card,
+   #testimonials header, #testimonials .testimonials-box,
+   #contact .text, #contact .links
+  `,
+  { interval: 100, distance: '30px', origin: 'top', duration: 800 }
+)
